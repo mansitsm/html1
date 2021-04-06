@@ -1,0 +1,45 @@
+h1{color:blue}
+
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+   
+    margin-bottom: auto;
+}
+.item{
+    background-color: rgb(240, 102, 109);
+    border:solid;
+    border-width: 10px;
+    border-radius: 15px;
+    border-color:black;
+    align-items: center;
+}
+p{
+    align-self: center;
+    margin-left: 50;
+}
+.desc{
+    color:rgb(151, 54, 9);
+   background-color:gold ; 
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: stretch;
+   
+    background-color: rgb(156, 133, 154);
+}
