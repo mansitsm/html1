@@ -1,7 +1,11 @@
-h1{color:blue}
+h1{color:blue;
+    border:solid;
+margin-left:30px;
+
+}
 
 .header{
-    background-color: aquamarine;
+    background-color: rgb(226, 206, 28);
     display:flex;
     justify-content: space-between;
 }
@@ -19,12 +23,16 @@ justify-content: space-evenly;
     margin-bottom: auto;
 }
 .item{
+    display: flex;
+    padding: 10px;
+    margin:30px;
     background-color: rgb(240, 102, 109);
     border:solid;
     border-width: 10px;
     border-radius: 15px;
     border-color:black;
     align-items: center;
+    justify-content: center;
 }
 p{
     align-self: center;
@@ -42,4 +50,28 @@ p{
     justify-content: stretch;
    
     background-color: rgb(156, 133, 154);
+}
+.menu a{
+    margin-left: 15px;
+    margin-right: 30px;
+}
+a:link{
+    color:rgb(29, 223, 158);
+    
+}
+a:visited{
+    color:rgb(24, 57, 241);
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+.item:hover p {
+    opacity: 1;
 }
